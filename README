@@ -1,0 +1,9 @@
+Simple blog made using Yesod.
+
+What works:
+Posting posts
+Associating tags with posts
+Accessing listings of posts by tags
+Creating comments (with reCAPTCHA)
+CRUD pages for posts/pages/tags/comments
+Haskell syntax highlighting
