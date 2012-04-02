@@ -1,0 +1,8 @@
+<h1>_{MsgHello}
+<h2 ##{h2id}>You do not have Javascript enabled.
+<ul>
+    <li>
+        <a href=@{CreateEntryR}>Create entry
+    <li>
+        <a href=@{EntriesR}>List entries
+

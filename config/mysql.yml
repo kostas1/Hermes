@@ -1,0 +1,24 @@
+Default: &defaults
+  user: Hermes
+  password: Hermes
+  host: localhost
+  port: 3306
+  database: Hermes
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Test:
+  database: Hermes_test
+  <<: *defaults
+
+Staging:
+  database: Hermes_staging
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: Hermes_production
+  poolsize: 100
+  <<: *defaults

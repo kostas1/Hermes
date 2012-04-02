@@ -1,0 +1,24 @@
+/static StaticR Static getStatic
+/auth   AuthR   Auth   getAuth
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ PostsR GET
+/entry/add CreatePostR GET POST
+/entry/edit/#PostId EditPostR GET POST
+/e/#Text PostR GET
+/post/delete/#PostId DeletePostR GET POST
+
+/page/add CreateSPageR GET POST
+/page/edit/#SPageId EditSPageR GET POST
+/page/delete/#SPageId DeleteSPageR GET POST
+/p/#String SPageR GET
+
+/tag/#Text TagR GET
+
+/admin AdminR GET
+/delete/comment/#CommentId DeleteCommentR GET
+/delete/tag/#TagId DeleteTagR GET
+
+/rss RssR GET

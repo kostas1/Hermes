@@ -1,0 +1,21 @@
+<div id="header">
+    <div id="logo">
+        <a href="/">
+            <span class="orange">Huskell
+    <div id="menu">
+        ^{menuWidget}
+        <ul>
+            <li>
+                <a href="#" class="active">home
+<div id="main">
+    <div id="content">
+        <div id="text">
+            ^{contentWidget}
+        <div id="sidebar">
+            ^{sidebarWidget}
+
+<div id="footer">
+    <div id="left_footer">
+        &copy; Huskell by zhulikas
+    <div id="right_footer">
+        <a href="http://www.realitysoftware.ca/services/website-development/design/">Web design</a> released by <a href="http://www.flash-gallery.org/">Flash Gallery</a
